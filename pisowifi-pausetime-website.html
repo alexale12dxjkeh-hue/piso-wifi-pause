@@ -1,0 +1,2215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Complete guide to Piso WiFi Pause Time, 10.0.0.1 login, admin portal, and network management tutorials for Filipino users.">
+    <meta name="keywords" content="Piso WiFi, Pause Time, 10.0.0.1, Admin Login, WiFi Voucher, Session Management">
+    <meta name="author" content="Piso WiFi Pause Time">
+    <meta name="theme-color" content="#2563EB">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta property="og:title" content="Piso WiFi Pause Time - Complete Guide & Admin Portal">
+    <meta property="og:description" content="Master Piso WiFi Pause Time with our comprehensive guide covering login, admin dashboard, pause/resume features, and troubleshooting.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pisowifi-pausetime.com.ph/">
+    <meta property="og:image" content="https://pisowifi-pausetime.com.ph/og-image.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Piso WiFi Pause Time - Complete Guide">
+    <meta name="twitter:description" content="Learn how to use Piso WiFi Pause Time, access 10.0.0.1 admin portal, and manage WiFi sessions.">
+    <link rel="canonical" href="https://pisowifi-pausetime.com.ph/">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%232563EB' width='100' height='100'/><text x='50' y='65' font-size='60' font-weight='bold' fill='white' text-anchor='middle'>P</text></svg>">
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Piso WiFi Pause Time",
+        "url": "https://pisowifi-pausetime.com.ph/",
+        "description": "Complete guide to Piso WiFi Pause Time and admin portal",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://pisowifi-pausetime.com.ph/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Piso WiFi Pause Time",
+        "url": "https://pisowifi-pausetime.com.ph/",
+        "logo": "https://pisowifi-pausetime.com.ph/logo.png",
+        "sameAs": ["https://facebook.com/pisowifiph", "https://twitter.com/pisowifi"],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Customer Support",
+            "email": "support@pisowifi-pausetime.com.ph"
+        }
+    }
+    </script>
+
+    <title>Piso WiFi Pause Time - Complete Guide & Admin Portal | 10.0.0.1 Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2563EB;
+            --secondary: #FFFFFF;
+            --accent: #38BDF8;
+            --background: #F8FAFC;
+            --card-bg: #FFFFFF;
+            --heading: #0F172A;
+            --paragraph: #475569;
+            --border: rgba(37, 99, 235, 0.15);
+            --success: #10B981;
+            --warning: #F59E0B;
+            --error: #EF4444;
+            --shadow: 0 10px 40px rgba(37, 99, 235, 0.1);
+            --shadow-lg: 0 20px 60px rgba(37, 99, 235, 0.15);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, var(--background) 0%, #EFF6FF 100%);
+            color: var(--paragraph);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Loading Animation */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--secondary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            animation: fadeOut 0.6s ease-out 2.4s forwards;
+        }
+
+        .loader-content {
+            text-align: center;
+        }
+
+        .loader-spinner {
+            width: 60px;
+            height: 60px;
+            border: 4px solid var(--border);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loader-text {
+            color: var(--heading);
+            font-weight: 600;
+            font-size: 18px;
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes fadeOut {
+            to {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Scroll Progress Bar */
+        .scroll-progress {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            width: 0%;
+            z-index: 999;
+            animation: glow 2s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.3); }
+            50% { box-shadow: 0 0 20px 0 rgba(37, 99, 235, 0.5); }
+        }
+
+        /* Header */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            animation: slideDown 0.5s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        nav {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--paragraph);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--heading);
+        }
+
+        .cta-header-btn {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.3);
+        }
+
+        .cta-header-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(37, 99, 235, 0.5);
+        }
+
+        /* Hero Section */
+        .hero {
+            max-width: 1400px;
+            margin: 60px auto 0;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            animation: fadeInUp 0.8s ease-out 0.3s both;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h1 {
+            font-size: 56px;
+            font-weight: 900;
+            color: var(--heading);
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .hero-subtitle {
+            font-size: 20px;
+            color: var(--paragraph);
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .btn {
+            padding: 14px 32px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 50px rgba(37, 99, 235, 0.5);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary);
+            border: 2px solid var(--primary);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        .ripple {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ripple::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            transform: translate(-50%, -50%);
+            animation: rippleEffect 0.6s ease-out;
+        }
+
+        @keyframes rippleEffect {
+            to {
+                width: 300px;
+                height: 300px;
+                opacity: 0;
+            }
+        }
+
+        /* Hero Background */
+        .hero-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(56, 189, 248, 0.1) 0%, transparent 50%);
+            z-index: 1;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section */
+        section {
+            margin: 80px 0;
+        }
+
+        .section-title {
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--heading);
+            text-align: center;
+            margin-bottom: 20px;
+            animation: fadeInUp 0.8s ease-out both;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: var(--paragraph);
+            font-size: 18px;
+            margin-bottom: 60px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeInUp 0.8s ease-out 0.1s both;
+        }
+
+        /* Features Grid */
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            padding: 40px;
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 50px rgba(37, 99, 235, 0.15);
+            border-color: var(--accent);
+        }
+
+        .feature-icon {
+            font-size: 40px;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .feature-card h3 {
+            color: var(--heading);
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            color: var(--paragraph);
+            line-height: 1.8;
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(56, 189, 248, 0.1));
+            border: 1px solid var(--border);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.2);
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .stat-label {
+            color: var(--paragraph);
+            font-weight: 600;
+        }
+
+        /* Bento Grid */
+        .bento-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 60px 0;
+        }
+
+        .bento-item {
+            background: linear-gradient(135deg, var(--secondary), rgba(255, 255, 255, 0.8));
+            border: 1px solid var(--border);
+            padding: 30px;
+            border-radius: 14px;
+            transition: all 0.3s ease;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .bento-item:hover {
+            box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .bento-item h3 {
+            color: var(--heading);
+            font-size: 20px;
+        }
+
+        /* FAQ */
+        .faq-container {
+            max-width: 800px;
+            margin: 60px auto;
+        }
+
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 15px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .faq-question {
+            padding: 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--heading);
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.03), transparent);
+            transition: all 0.3s ease;
+        }
+
+        .faq-question:hover {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), transparent);
+            color: var(--primary);
+        }
+
+        .faq-toggle {
+            width: 24px;
+            height: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-toggle {
+            transform: rotate(180deg);
+        }
+
+        .faq-answer {
+            padding: 0 20px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            color: var(--paragraph);
+            line-height: 1.8;
+        }
+
+        .faq-item.active .faq-answer {
+            padding: 20px;
+            max-height: 500px;
+        }
+
+        /* Page Content */
+        .page-content {
+            display: none;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .page-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .page-hero {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            border-radius: 20px;
+            margin-bottom: 60px;
+        }
+
+        .page-hero h1 {
+            font-size: 48px;
+            font-weight: 900;
+            margin-bottom: 20px;
+        }
+
+        .page-hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.95;
+        }
+
+        .breadcrumb {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent);
+            text-decoration: underline;
+        }
+
+        .breadcrumb span {
+            color: var(--paragraph);
+        }
+
+        /* Content Sections */
+        .content-section {
+            margin: 40px 0;
+        }
+
+        .content-section h2 {
+            font-size: 32px;
+            color: var(--heading);
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .content-section h3 {
+            font-size: 24px;
+            color: var(--heading);
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .content-section p {
+            margin-bottom: 15px;
+            line-height: 1.9;
+            color: var(--paragraph);
+        }
+
+        .content-section ul,
+        .content-section ol {
+            margin: 20px 0 20px 30px;
+            line-height: 1.9;
+        }
+
+        .content-section li {
+            margin-bottom: 10px;
+            color: var(--paragraph);
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(56, 189, 248, 0.08));
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .highlight-box strong {
+            color: var(--primary);
+        }
+
+        /* Tables */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 30px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(37, 99, 235, 0.08);
+        }
+
+        th {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        td {
+            padding: 15px;
+            border-bottom: 1px solid var(--border);
+            color: var(--paragraph);
+        }
+
+        tr:hover {
+            background: rgba(37, 99, 235, 0.02);
+        }
+
+        /* Testimonials */
+        .testimonial-slider {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .testimonial-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 30px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            box-shadow: 0 15px 40px rgba(37, 99, 235, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .stars {
+            color: #FCD34D;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .testimonial-text {
+            color: var(--paragraph);
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+        }
+
+        .author-info h4 {
+            color: var(--heading);
+            margin-bottom: 3px;
+        }
+
+        .author-info p {
+            color: var(--paragraph);
+            font-size: 14px;
+        }
+
+        /* Newsletter */
+        .newsletter-section {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            padding: 60px 20px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 80px 0;
+        }
+
+        .newsletter-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .newsletter-section p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+            max-width: 500px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            min-width: 200px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .newsletter-form input::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .newsletter-form button {
+            padding: 12px 30px;
+            background: white;
+            color: var(--primary);
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .newsletter-form button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--heading), #1e293b);
+            color: white;
+            padding: 60px 20px 20px;
+            margin-top: 80px;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-section h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .footer-section a {
+            display: block;
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            margin-bottom: 12px;
+            transition: color 0.3s ease;
+        }
+
+        .footer-section a:hover {
+            color: white;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.6);
+        }
+
+        .footer-disclaimer {
+            background: rgba(37, 99, 235, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 13px;
+            margin-bottom: 40px;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+        /* Sticky CTA */
+        .sticky-cta {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 90;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(200px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .sticky-cta button {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .sticky-cta button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 15px 50px rgba(37, 99, 235, 0.5);
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            z-index: 90;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(37, 99, 235, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .back-to-top button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(37, 99, 235, 0.5);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            nav {
+                position: absolute;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background: var(--card-bg);
+                flex-direction: column;
+                gap: 15px;
+                padding: 20px;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+                border-bottom: 1px solid var(--border);
+            }
+
+            nav.active {
+                max-height: 500px;
+            }
+
+            nav a::after {
+                display: none;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .hero-subtitle {
+                font-size: 16px;
+            }
+
+            .section-title {
+                font-size: 32px;
+            }
+
+            .page-hero h1 {
+                font-size: 32px;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .sticky-cta {
+                bottom: 20px;
+                right: 20px;
+            }
+
+            .sticky-cta button {
+                width: 50px;
+                height: 50px;
+                font-size: 20px;
+            }
+
+            .back-to-top {
+                bottom: 20px;
+                left: 20px;
+            }
+
+            .back-to-top button {
+                width: 45px;
+                height: 45px;
+                font-size: 18px;
+            }
+
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .newsletter-form input,
+            .newsletter-form button {
+                width: 100%;
+            }
+
+            footer {
+                padding: 40px 20px 20px;
+            }
+
+            .footer-content {
+                gap: 20px;
+                margin-bottom: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+
+            .section-title {
+                font-size: 24px;
+            }
+
+            .feature-card {
+                padding: 25px;
+            }
+
+            .page-hero {
+                padding: 40px 20px;
+                border-radius: 12px;
+            }
+
+            .page-hero h1 {
+                font-size: 24px;
+            }
+
+            .content-section h2 {
+                font-size: 22px;
+            }
+
+            .content-section h3 {
+                font-size: 18px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }
+
+        /* Scroll Animations */
+        .scroll-reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease-out;
+        }
+
+        .scroll-reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text">Loading Premium Content</div>
+        </div>
+    </div>
+
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo" onclick="navigateTo('/')">PW</div>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
+            <nav id="nav-menu">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <a href="#" onclick="navigateTo('/about/'); return false;">About</a>
+                <a href="#" onclick="navigateTo('/10-0-0-1-login/'); return false;">Login Guide</a>
+                <a href="#" onclick="navigateTo('/pause-time/'); return false;">Pause Time</a>
+                <a href="#" onclick="navigateTo('/blog/'); return false;">Blog</a>
+                <a href="#" onclick="navigateTo('/faq/'); return false;">FAQ</a>
+                <a href="#" onclick="navigateTo('/contact/'); return false;">Contact</a>
+                <a href="https://pisowifi-pausetime.com.ph/" class="cta-header-btn">Visit Official</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="page-home" class="page-content active">
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="hero-content">
+                <h1>Master Piso WiFi Pause Time</h1>
+                <p class="hero-subtitle">Complete guide to managing your WiFi sessions, admin login, and network control. Everything you need to know about Piso WiFi pause time feature.</p>
+                <div class="hero-buttons">
+                    <a href="https://pisowifi-pausetime.com.ph/" class="btn btn-primary ripple">Access Portal</a>
+                    <a href="#" onclick="navigateTo('/10-0-0-1-login/'); return false;" class="btn btn-secondary">Login Guide</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <!-- Features Section -->
+            <section>
+                <h2 class="section-title">Core Features</h2>
+                <p class="section-subtitle">Comprehensive tools for WiFi management and session control</p>
+                <div class="features-grid">
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">⏸️</div>
+                        <h3>Pause Sessions</h3>
+                        <p>Easily pause your WiFi sessions and resume when needed. Perfect for managing bandwidth usage and controlling internet time.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">🔐</div>
+                        <h3>Admin Portal</h3>
+                        <p>Access the powerful admin dashboard at 10.0.0.1 to manage network settings, users, and configurations with ease.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">📊</div>
+                        <h3>Usage Analytics</h3>
+                        <p>Track bandwidth usage, session history, and user activity with detailed analytics and reports for better network management.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">🎟️</div>
+                        <h3>Voucher System</h3>
+                        <p>Generate and manage WiFi vouchers for easy access distribution. Perfect for business and commercial WiFi operations.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Real-time Control</h3>
+                        <p>Manage connected devices, control bandwidth allocation, and monitor network performance in real-time.</p>
+                    </div>
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Security</h3>
+                        <p>Advanced security features including password protection, device management, and network encryption for safe operations.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Stats Section -->
+            <section>
+                <h2 class="section-title">By The Numbers</h2>
+                <div class="stats">
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">500K+</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">100K+</div>
+                        <div class="stat-label">Networks</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                    <div class="stat-card scroll-reveal">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Support</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- How It Works -->
+            <section>
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Simple 4-step process to manage your WiFi</p>
+                <div class="bento-grid">
+                    <div class="bento-item scroll-reveal">
+                        <div>
+                            <div style="font-size: 36px; margin-bottom: 10px;">1️⃣</div>
+                            <h3>Connect to WiFi</h3>
+                            <p>Connect to your Piso WiFi network and obtain your session credentials</p>
+                        </div>
+                    </div>
+                    <div class="bento-item scroll-reveal">
+                        <div>
+                            <div style="font-size: 36px; margin-bottom: 10px;">2️⃣</div>
+                            <h3>Access Portal</h3>
+                            <p>Visit the admin portal at 10.0.0.1 with your login credentials</p>
+                        </div>
+                    </div>
+                    <div class="bento-item scroll-reveal">
+                        <div>
+                            <div style="font-size: 36px; margin-bottom: 10px;">3️⃣</div>
+                            <h3>Pause/Resume</h3>
+                            <p>Use the pause time feature to manage your session duration</p>
+                        </div>
+                    </div>
+                    <div class="bento-item scroll-reveal">
+                        <div>
+                            <div style="font-size: 36px; margin-bottom: 10px;">4️⃣</div>
+                            <h3>Enjoy WiFi</h3>
+                            <p>Manage your bandwidth and enjoy reliable internet connectivity</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>What is Piso WiFi Pause Time?</span>
+                            <div class="faq-toggle">▼</div>
+                        </div>
+                        <div class="faq-answer">
+                            Piso WiFi Pause Time is a feature that allows users to temporarily suspend their WiFi connection without losing their remaining time credits. This is extremely useful for managing your data usage and ensuring you can resume your session later without any additional cost. The pause time feature has revolutionized how Filipino users manage their affordable WiFi sessions.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>How do I access the 10.0.0.1 admin portal?</span>
+                            <div class="faq-toggle">▼</div>
+                        </div>
+                        <div class="faq-answer">
+                            To access the admin portal, ensure you are connected to the Piso WiFi network. Open your web browser and navigate to 10.0.0.1. Enter your username and password (default credentials are usually admin/admin for fresh installations). Once logged in, you'll have access to all admin features and network management tools.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Can I pause my WiFi session multiple times?</span>
+                            <div class="faq-toggle">▼</div>
+                        </div>
+                        <div class="faq-answer">
+                            Yes, you can pause and resume your WiFi session multiple times as needed. Your remaining time credits will be preserved each time you pause. This makes it convenient to manage your internet time efficiently throughout the day without wasting your purchased session.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>What happens to my time when I pause?</span>
+                            <div class="faq-toggle">▼</div>
+                        </div>
+                        <div class="faq-answer">
+                            When you pause your session, the timer stops counting down. Your remaining time credits are frozen and will not decrease until you resume your session. This allows you to preserve your purchase and use it whenever you actually need internet access.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>How do I reset the admin password?</span>
+                            <div class="faq-toggle">▼</div>
+                        </div>
+                        <div class="faq-answer">
+                            If you forgot your admin password, you can reset it by accessing the router's physical reset button. Press and hold the reset button for 10-15 seconds. This will restore the router to factory settings. Afterward, you can reconfigure the router with new credentials using the admin portal.
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-question" onclick="toggleFAQ(this)">
+                            <span>Is my connection secure when using Piso WiFi?</span>
+                            <div class="faq-toggle">▼</div>
+                        </div>
+                        <div class="faq-answer">
+                            Piso WiFi supports WPA2 encryption and various security protocols. Make sure your network is protected with a strong password through the admin portal. Regular updates and security patches help maintain network security. Always change default credentials and enable firewall features for additional protection.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Testimonials -->
+            <section>
+                <h2 class="section-title">What Users Say</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-card scroll-reveal">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"This guide helped me understand the pause time feature perfectly. Now I can manage my WiFi sessions much more efficiently and save money."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MR</div>
+                            <div class="author-info">
+                                <h4>Maria Rodriguez</h4>
+                                <p>Manila, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card scroll-reveal">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"As a WiFi entrepreneur, this resource has been invaluable. The admin guide is comprehensive and easy to follow for network management."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">JC</div>
+                            <div class="author-info">
+                                <h4>Juan Carlos Dela Cruz</h4>
+                                <p>Cebu, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card scroll-reveal">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-text">"Clear explanations and step-by-step tutorials. Finally, I understand how to use all the features of my Piso WiFi setup!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AP</div>
+                            <div class="author-info">
+                                <h4>Anna Perfecto</h4>
+                                <p>Davao, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="newsletter-section">
+                <h2>Subscribe for Updates</h2>
+                <p>Get the latest Piso WiFi tips, guides, and tutorials delivered to your inbox</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button onclick="handleNewsletterSubmit(event)">Subscribe</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="page-about" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>About Piso WiFi Pause Time</h1>
+                <p>Your comprehensive resource for understanding and mastering WiFi management</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>About</span>
+            </div>
+
+            <div class="content-section">
+                <h2>Our Mission</h2>
+                <p>Piso WiFi Pause Time is dedicated to providing comprehensive, accurate, and accessible information about Piso WiFi systems, pause time features, and network management. We believe that understanding your WiFi network is essential for maximizing its potential and ensuring optimal performance.</p>
+                <p>Our mission is to empower users and network administrators with the knowledge they need to effectively manage their Piso WiFi systems, troubleshoot common issues, and make the most of their investment in affordable internet connectivity.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>What We Offer</h2>
+                <p>Our platform provides:</p>
+                <ul>
+                    <li><strong>Comprehensive Guides:</strong> Detailed tutorials on accessing the admin portal, configuring settings, and using pause time features.</li>
+                    <li><strong>Troubleshooting Resources:</strong> Solutions for common issues and problems users encounter with Piso WiFi systems.</li>
+                    <li><strong>Security Tips:</strong> Best practices for securing your network and protecting user data.</li>
+                    <li><strong>Session Management:</strong> Complete information on managing WiFi sessions, vouchers, and user accounts.</li>
+                    <li><strong>Expert Advice:</strong> Professional insights and recommendations from experienced network administrators.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Why Choose Us</h2>
+                <p>Unlike other resources, we focus on providing original, well-researched content that is easy to understand and implement. Our guides are written by experts who have extensive experience with Piso WiFi systems and network management. We're committed to keeping our information current and accurate.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Disclaimer</h2>
+                <div class="highlight-box">
+                    <strong>Important Notice:</strong> This website is an independent educational and informational resource about Piso WiFi Pause Time. It is not affiliated with, endorsed by, sponsored by, or officially connected with LPB Piso WiFi, AdoPiSoft, JuanFi, TP-Link, or any other network hardware or software provider. All trademarks belong to their respective owners. Users should verify important information through the official provider whenever necessary.
+                </div>
+            </div>
+
+            <section class="newsletter-section">
+                <h2>Ready to Master Piso WiFi?</h2>
+                <p>Get access to our complete guides and expert resources</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button onclick="handleNewsletterSubmit(event)">Get Started</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- 10.0.0.1 Login Page -->
+    <div id="page-login" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>10.0.0.1 Login Guide</h1>
+                <p>Complete guide to accessing your Piso WiFi admin portal</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Login Guide</span>
+            </div>
+
+            <div class="content-section">
+                <h2>Introduction to 10.0.0.1 Admin Portal</h2>
+                <p>The 10.0.0.1 address is the default gateway IP for accessing the Piso WiFi admin portal. This portal is where administrators can configure network settings, manage users, set up vouchers, monitor bandwidth usage, and control all aspects of their WiFi network. Understanding how to access and navigate this portal is crucial for effective network management.</p>
+                <p>The admin panel provides an intuitive interface for managing everything from basic network configuration to advanced security settings. Whether you're a professional network administrator or running a small WiFi business, mastering the admin portal is essential.</p>
+            </div>
+
+            <div class="content-section">
+                <h2>How to Access the Admin Portal</h2>
+                <p>Follow these steps to access the 10.0.0.1 admin portal:</p>
+                <ol>
+                    <li><strong>Connect to the network:</strong> Ensure your device is connected to the Piso WiFi network (either wired via Ethernet or wireless via WiFi).</li>
+                    <li><strong>Open your browser:</strong> Use any web browser such as Chrome, Firefox, Safari, or Edge.</li>
+                    <li><strong>Enter the IP address:</strong> In the address bar, type 10.0.0.1 and press Enter.</li>
+                    <li><strong>Wait for the page to load:</strong> The admin login page should appear within a few seconds.</li>
+                    <li><strong>Enter credentials:</strong> Input your username and password. Default credentials are usually admin/admin.</li>
+                    <li><strong>Click Login:</strong> You should now have access to the admin dashboard.</li>
+                </ol>
+            </div>
+
+            <div class="content-section">
+                <h2>Default Login Credentials</h2>
+                <p>Most Piso WiFi systems come with default credentials. Here are the most common ones:</p>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Username</th>
+                            <th>Password</th>
+                            <th>Notes</th>
+                        </tr>
+                        <tr>
+                            <td>admin</td>
+                            <td>admin</td>
+                            <td>Most common default credentials</td>
+                        </tr>
+                        <tr>
+                            <td>admin</td>
+                            <td>12345</td>
+                            <td>Alternative default password</td>
+                        </tr>
+                        <tr>
+                            <td>root</td>
+                            <td>root</td>
+                            <td>Some installations use root</td>
+                        </tr>
+                        <tr>
+                            <td>operator</td>
+                            <td>operator</td>
+                            <td>Operator level access</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>Troubleshooting Access Issues</h2>
+                <p>If you're having trouble accessing the admin portal, try these solutions:</p>
+                <ul>
+                    <li><strong>Check Connection:</strong> Verify that you're connected to the correct WiFi network with a stable connection.</li>
+                    <li><strong>Clear Browser Cache:</strong> Clear your browser's cache and cookies, then try again.</li>
+                    <li><strong>Use Different Browser:</strong> Try accessing from a different browser to rule out browser-specific issues.</li>
+                    <li><strong>Disable VPN:</strong> If you're using a VPN, disable it temporarily as it may interfere with local network access.</li>
+                    <li><strong>Restart Router:</strong> Power cycle the Piso WiFi router by unplugging it for 30 seconds.</li>
+                    <li><strong>Check IP Configuration:</strong> Ensure your device has obtained an IP address from the router's DHCP server.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Admin Dashboard Overview</h2>
+                <p>Once logged in, you'll see the main admin dashboard with various sections:</p>
+                <ul>
+                    <li><strong>Status Page:</strong> Shows current network status, connected devices, and bandwidth usage.</li>
+                    <li><strong>Users Management:</strong> Manage user accounts, set quotas, and monitor activity.</li>
+                    <li><strong>Vouchers:</strong> Create, distribute, and track WiFi vouchers and access codes.</li>
+                    <li><strong>Settings:</strong> Configure network parameters, security options, and system preferences.</li>
+                    <li><strong>Reports:</strong> View detailed analytics and usage statistics.</li>
+                    <li><strong>Support:</strong> Access help documentation and support resources.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Security Best Practices</h2>
+                <p>To keep your network secure, follow these best practices:</p>
+                <ul>
+                    <li><strong>Change Default Password:</strong> Always change the default admin password to something strong and unique.</li>
+                    <li><strong>Use Strong Passwords:</strong> Create passwords with at least 12 characters including upper case, lower case, numbers, and symbols.</li>
+                    <li><strong>Enable Encryption:</strong> Ensure WPA2 or WPA3 encryption is enabled on your network.</li>
+                    <li><strong>Regular Updates:</strong> Keep your router firmware updated to the latest version.</li>
+                    <li><strong>Disable Remote Access:</strong> Disable remote management features if you don't need them.</li>
+                    <li><strong>Monitor Activity:</strong> Regularly review access logs and connected device lists.</li>
+                </ul>
+            </div>
+
+            <section class="newsletter-section">
+                <h2>Need More Help?</h2>
+                <p>Access our detailed guides and expert support resources</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button onclick="handleNewsletterSubmit(event)">Get Help</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Pause Time Page -->
+    <div id="page-pause-time" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Piso WiFi Pause Time Guide</h1>
+                <p>Master the pause and resume feature for efficient session management</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Pause Time</span>
+            </div>
+
+            <div class="content-section">
+                <h2>Understanding Pause Time</h2>
+                <p>Pause Time is one of the most valuable features of Piso WiFi, allowing users to temporarily suspend their internet connection without losing their remaining time credits. This innovative feature has revolutionized affordable WiFi usage in the Philippines, giving users unprecedented control over their session management.</p>
+                <p>Whether you need to step away from your device, conserve bandwidth for later, or simply take a break, the pause time feature ensures that your purchased time remains intact and ready to use whenever you need it.</p>
+
+                <div class="highlight-box">
+                    <strong>Key Benefit:</strong> Pause Time allows you to preserve your remaining credits indefinitely. No matter how long you pause your session, your remaining time will be waiting for you when you're ready to resume.
+                </div>
+            </div>
+
+            <div class="content-section">
+                <h2>How to Pause Your WiFi Session</h2>
+                <p>Pausing your WiFi session is simple and straightforward:</p>
+                <ol>
+                    <li><strong>Open browser:</strong> While connected to Piso WiFi, open your web browser.</li>
+                    <li><strong>Visit portal:</strong> Navigate to the default portal page (usually auto-redirected or access 10.0.0.1).</li>
+                    <li><strong>Find pause button:</strong> Look for the "Pause" button on your session status page.</li>
+                    <li><strong>Click pause:</strong> Simply click the pause button to suspend your connection.</li>
+                    <li><strong>Confirmation:</strong> You'll receive confirmation that your session is paused.</li>
+                </ol>
+            </div>
+
+            <div class="content-section">
+                <h2>How to Resume Your Session</h2>
+                <p>Resuming is just as easy:</p>
+                <ol>
+                    <li><strong>Reconnect to WiFi:</strong> Ensure you're still connected to the Piso WiFi network.</li>
+                    <li><strong>Open browser:</strong> Open your web browser and navigate to the portal.</li>
+                    <li><strong>Find resume button:</strong> Look for the "Resume" button on your session page.</li>
+                    <li><strong>Click resume:</strong> Click the resume button to restart your session.</li>
+                    <li><strong>Confirmation:</strong> Your connection will resume immediately with your remaining time intact.</li>
+                </ol>
+            </div>
+
+            <div class="content-section">
+                <h2>Advanced Pause Time Features</h2>
+                <p>Modern Piso WiFi systems offer several advanced pause time features:</p>
+                <ul>
+                    <li><strong>Auto-Pause Schedule:</strong> Set your WiFi to automatically pause at specified times.</li>
+                    <li><strong>Multiple Pause Sessions:</strong> Pause and resume your session multiple times without limitations.</li>
+                    <li><strong>Bandwidth Pause:</strong> Pause high-bandwidth services while maintaining connectivity for essential services.</li>
+                    <li><strong>Scheduled Pause:</strong> Plan maintenance windows with automatic pausing.</li>
+                    <li><strong>Pause Limits:</strong> Set maximum pause duration through admin settings if needed.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Troubleshooting Pause Issues</h2>
+                <p>If you're having trouble with pause/resume features:</p>
+                <ul>
+                    <li><strong>Button Not Appearing:</strong> Refresh the page or clear your browser cache.</li>
+                    <li><strong>Pause Won't Work:</strong> Ensure your session is active and not already expired.</li>
+                    <li><strong>Can't Resume:</strong> Check your internet connection and try accessing the portal again.</li>
+                    <li><strong>Time Not Preserved:</strong> Some systems may have pause duration limits - check with your provider.</li>
+                    <li><strong>Session Reset:</strong> If issues persist, try accessing from a different device.</li>
+                </ul>
+            </div>
+
+            <div class="content-section">
+                <h2>Tips for Effective Pause Management</h2>
+                <ul>
+                    <li><strong>Pause During Breaks:</strong> Use pause time during work breaks or study sessions to preserve credits.</li>
+                    <li><strong>Monitor Remaining Time:</strong> Keep track of your remaining time through the session status page.</li>
+                    <li><strong>Plan Usage:</strong> Pause strategically to extend your session duration throughout the day.</li>
+                    <li><strong>Avoid Downloads During Off-Peak:</strong> Pause during off-peak hours to potentially resume during better speeds.</li>
+                    <li><strong>Share Knowledge:</strong> Teach other users about pause time to maximize network efficiency.</li>
+                </ul>
+            </div>
+
+            <section class="newsletter-section">
+                <h2>Master Pause Time Management</h2>
+                <p>Get exclusive tips and advanced strategies for WiFi management</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button onclick="handleNewsletterSubmit(event)">Subscribe Now</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Blog Page -->
+    <div id="page-blog" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Blog & Tutorials</h1>
+                <p>Latest guides, tips, and expert advice for Piso WiFi management</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Blog</span>
+            </div>
+
+            <div style="margin-top: 60px;">
+                <div class="features-grid">
+                    <div class="feature-card scroll-reveal" onclick="navigateTo('/10-0-0-1-login/')">
+                        <div class="feature-icon">📱</div>
+                        <h3>10.0.0.1 Admin Login Complete Guide</h3>
+                        <p>Everything you need to know about accessing the Piso WiFi admin portal, including default credentials, troubleshooting, and security best practices.</p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">⏸️</div>
+                        <h3>Piso WiFi Pause Time Mastery</h3>
+                        <p>Learn how to effectively use pause time features, advanced pause scheduling, and tips for maximizing your WiFi session duration.</p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">🎟️</div>
+                        <h3>Voucher System Explained</h3>
+                        <p>Complete guide to generating, managing, and distributing WiFi vouchers through the admin portal for your users.</p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">📊</div>
+                        <h3>Network Analytics & Reports</h3>
+                        <p>Learn how to interpret bandwidth usage reports, monitor connected devices, and optimize your network performance.</p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Security Guide for Piso WiFi</h3>
+                        <p>Essential security practices, password management, encryption settings, and protecting your network from unauthorized access.</p>
+                    </div>
+
+                    <div class="feature-card scroll-reveal">
+                        <div class="feature-icon">🔧</div>
+                        <h3>Troubleshooting Common Issues</h3>
+                        <p>Solutions for connectivity problems, login issues, pause/resume errors, and other common Piso WiFi system issues.</p>
+                    </div>
+                </div>
+            </div>
+
+            <section class="newsletter-section">
+                <h2>Subscribe for New Guides</h2>
+                <p>Get notified when we publish new tutorials and expert guides</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button onclick="handleNewsletterSubmit(event)">Subscribe</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- FAQ Page -->
+    <div id="page-faq" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Frequently Asked Questions</h1>
+                <p>Answers to common questions about Piso WiFi pause time and admin portal</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>FAQ</span>
+            </div>
+
+            <div class="faq-container" style="margin-top: 60px;">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Is it safe to use the 10.0.0.1 admin portal on public networks?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        No, it's not recommended to access the admin portal on public or untrusted networks. Always access the admin portal on secure, private networks only. The admin portal contains sensitive configuration data and credentials. Using it on public networks exposes your network to potential security risks and unauthorized access attempts.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How many times can I pause my WiFi session?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        You can pause and resume your WiFi session unlimited times. There are no restrictions on how many times you can use the pause feature, as long as you have remaining time credits. Each pause/resume cycle preserves your remaining time, making it a flexible tool for session management.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What should I do if I forget my admin password?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        If you forget your admin password, you can reset the router to factory settings by pressing and holding the reset button for 10-15 seconds. This will restore default credentials (usually admin/admin). After reset, you should immediately change the admin password to a strong, unique password to secure your network.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can I manage multiple WiFi networks from one admin account?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        This depends on your system configuration. Some advanced Piso WiFi setups support multi-site management, allowing you to manage multiple networks from a central admin portal. You'll need to check your specific system's capabilities or contact your provider for more information about multi-site management features.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Is there a limit to how long I can pause my session?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        Most Piso WiFi systems allow unlimited pause duration. Your remaining time credits stay frozen while paused. However, some systems may have configuration-specific limits set by the network administrator. Check your provider's terms or contact them for specific pause duration policies.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>How can I generate WiFi vouchers for users?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        Access the admin portal at 10.0.0.1 and look for the "Vouchers" section. From there, you can generate new vouchers by specifying the duration (1 hour, 1 day, etc.) and quantity. The system will generate unique codes that users can enter to activate their WiFi session. You can then print or distribute these codes.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>What encryption should I use for my Piso WiFi network?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        We recommend using WPA2 or WPA3 encryption, which are the most secure standards available. Enable encryption through the admin portal's security settings. Avoid using WEP (outdated and insecure) or leaving your network open without encryption, as this leaves user data vulnerable to interception.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFAQ(this)">
+                        <span>Can I see which devices are connected to my network?</span>
+                        <div class="faq-toggle">▼</div>
+                    </div>
+                    <div class="faq-answer">
+                        Yes, the admin portal displays a list of currently connected devices. You can usually see device names, MAC addresses, IP addresses, and data usage. This information is valuable for monitoring network activity, identifying unauthorized devices, and managing bandwidth allocation among connected users.
+                    </div>
+                </div>
+            </div>
+
+            <section class="newsletter-section">
+                <h2>Still Have Questions?</h2>
+                <p>Subscribe to get exclusive support and detailed guides</p>
+                <div class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button onclick="handleNewsletterSubmit(event)">Get Support</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="page-contact" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Get In Touch</h1>
+                <p>Have questions? We're here to help with your Piso WiFi needs</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Contact</span>
+            </div>
+
+            <div style="margin-top: 60px; max-width: 700px; margin-left: auto; margin-right: auto;">
+                <div class="content-section">
+                    <h2>Contact Information</h2>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 20px;">
+                            <strong style="color: var(--primary); font-size: 16px;">Email Support</strong><br>
+                            <a href="mailto:support@pisowifi-pausetime.com.ph" style="color: var(--primary); text-decoration: none;">support@pisowifi-pausetime.com.ph</a>
+                        </li>
+                        <li style="margin-bottom: 20px;">
+                            <strong style="color: var(--primary); font-size: 16px;">Business Hours</strong><br>
+                            Monday - Friday: 9:00 AM - 6:00 PM<br>
+                            Saturday: 10:00 AM - 4:00 PM<br>
+                            Sunday: Closed
+                        </li>
+                        <li style="margin-bottom: 20px;">
+                            <strong style="color: var(--primary); font-size: 16px;">Response Time</strong><br>
+                            We typically respond to inquiries within 24 hours
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="content-section">
+                    <h2>Send Us a Message</h2>
+                    <form onsubmit="handleContactForm(event)" style="display: flex; flex-direction: column; gap: 20px;">
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; color: var(--heading); font-weight: 600;">Your Name</label>
+                            <input type="text" required placeholder="Enter your name" style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 16px; background: var(--card-bg);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; color: var(--heading); font-weight: 600;">Email Address</label>
+                            <input type="email" required placeholder="Enter your email" style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 16px; background: var(--card-bg);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; color: var(--heading); font-weight: 600;">Subject</label>
+                            <input type="text" required placeholder="Message subject" style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 16px; background: var(--card-bg);">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px; color: var(--heading); font-weight: 600;">Message</label>
+                            <textarea required placeholder="Your message..." rows="6" style="width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 16px; background: var(--card-bg); resize: vertical;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary ripple" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Page -->
+    <div id="page-privacy" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Privacy Policy</h1>
+                <p>How we protect your information and personal data</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Privacy Policy</span>
+            </div>
+
+            <div class="content-section" style="margin-top: 60px;">
+                <h2>Information We Collect</h2>
+                <p>We collect information that you voluntarily provide, such as your email address when subscribing to our newsletter, or when you contact us through our contact form. This information helps us serve you better and provide relevant updates and support.</p>
+
+                <h2>How We Use Your Information</h2>
+                <p>The information we collect is used to:</p>
+                <ul>
+                    <li>Send you newsletters and updates about Piso WiFi tutorials and guides</li>
+                    <li>Respond to your inquiries and support requests</li>
+                    <li>Improve our website and content based on user feedback</li>
+                    <li>Comply with legal obligations</li>
+                </ul>
+
+                <h2>Data Security</h2>
+                <p>We take data security seriously and implement appropriate technical measures to protect your personal information from unauthorized access, alteration, or disclosure.</p>
+
+                <h2>Third-Party Links</h2>
+                <p>Our website contains links to external websites. We are not responsible for the privacy practices of third-party websites. Please review their privacy policies before providing your information.</p>
+
+                <h2>Changes to This Policy</h2>
+                <p>We may update this privacy policy periodically. Your continued use of our website implies acceptance of these changes.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms and Conditions Page -->
+    <div id="page-terms" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Terms & Conditions</h1>
+                <p>Terms of use for Piso WiFi Pause Time website</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Terms</span>
+            </div>
+
+            <div class="content-section" style="margin-top: 60px;">
+                <h2>Disclaimer</h2>
+                <div class="highlight-box">
+                    This website is an independent educational and informational resource about Piso WiFi Pause Time. It is not affiliated with, endorsed by, sponsored by, or officially connected with LPB Piso WiFi, AdoPiSoft, JuanFi, TP-Link, or any other network hardware or software provider. All trademarks belong to their respective owners. Users should verify important information through the official provider whenever necessary.
+                </div>
+
+                <h2>Use License</h2>
+                <p>Permission is granted to temporarily download one copy of the materials (information or software) on our website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+                <ul>
+                    <li>Modify or copy the materials</li>
+                    <li>Use the materials for commercial purposes</li>
+                    <li>Attempt to decompile or reverse engineer any software contained on the website</li>
+                    <li>Remove any copyright or other proprietary notations</li>
+                    <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+                </ul>
+
+                <h2>Disclaimer of Warranties</h2>
+                <p>The materials on our website are provided "as is". We make no warranties, expressed or implied, and hereby disclaim and negate all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.</p>
+
+                <h2>Limitations</h2>
+                <p>In no event shall our company or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on our website.</p>
+
+                <h2>Accuracy of Materials</h2>
+                <p>The materials appearing on our website could include technical, typographical, or photographic errors. We do not warrant that any of the materials on our website are accurate, complete, or current. We may make changes to the materials contained on our website at any time without notice.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Disclaimer Page -->
+    <div id="page-disclaimer" class="page-content">
+        <div class="container">
+            <div class="page-hero">
+                <h1>Disclaimer</h1>
+                <p>Important notice about this website and its content</p>
+            </div>
+
+            <div class="breadcrumb">
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <span>›</span>
+                <span>Disclaimer</span>
+            </div>
+
+            <div class="content-section" style="margin-top: 60px;">
+                <h2>Official Notice</h2>
+                <div class="highlight-box" style="background: linear-gradient(135deg, rgba(239, 68, 68, 0.08), rgba(244, 63, 94, 0.08)); border-left-color: #EF4444;">
+                    <strong style="color: #EF4444; font-size: 16px;">This website is an independent educational and informational resource about Piso WiFi Pause Time.</strong><br><br>
+                    <strong>It is NOT affiliated with, endorsed by, sponsored by, or officially connected with:</strong>
+                    <ul style="margin-top: 10px; margin-left: 20px;">
+                        <li>LPB Piso WiFi</li>
+                        <li>AdoPiSoft</li>
+                        <li>JuanFi</li>
+                        <li>TP-Link</li>
+                        <li>Or any other network hardware or software provider</li>
+                    </ul>
+                    <br>
+                    <strong>All trademarks belong to their respective owners.</strong><br><br>
+                    Users should verify important information through the official provider whenever necessary.
+                </div>
+
+                <h2>Educational Purpose</h2>
+                <p>This website is provided for educational purposes only. All content is intended to help users understand how to use Piso WiFi systems, access the admin portal, and manage their network settings. We do not take responsibility for any misuse of this information or any damage caused by improper configuration of network systems.</p>
+
+                <h2>Accuracy of Information</h2>
+                <p>While we strive to provide accurate and up-to-date information, we make no guarantees about the completeness, accuracy, or timeliness of the content. Network systems, software, and configurations change frequently, and our guides may not reflect the most current versions of Piso WiFi systems.</p>
+
+                <h2>User Responsibility</h2>
+                <p>Users are responsible for their own network security and data management. We recommend consulting with professional network administrators before making significant changes to your system. Users should always follow their network provider's official guidelines and terms of service.</p>
+
+                <h2>No Professional Advice</h2>
+                <p>The content on this website is not professional advice. For professional consultation regarding your specific network setup, security concerns, or operational needs, please contact qualified network professionals or your system provider directly.</p>
+
+                <h2>Limited Liability</h2>
+                <p>We shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from your use or inability to use the materials on this website, or from your reliance on information provided herein.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 404 Page -->
+    <div id="page-404" class="page-content">
+        <div class="container">
+            <div style="text-align: center; padding: 100px 20px;">
+                <h1 style="font-size: 72px; color: var(--primary); margin-bottom: 20px;">404</h1>
+                <h2 style="color: var(--heading); margin-bottom: 15px;">Page Not Found</h2>
+                <p style="color: var(--paragraph); margin-bottom: 40px; font-size: 18px;">The page you're looking for doesn't exist or has been moved.</p>
+                <a href="#" onclick="navigateTo('/'); return false;" class="btn btn-primary">Go Back Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky CTA -->
+    <div class="sticky-cta">
+        <button onclick="window.open('https://pisowifi-pausetime.com.ph/', '_blank')" title="Visit Official Portal">🚀</button>
+    </div>
+
+    <!-- Back to Top -->
+    <div class="back-to-top" id="backToTop">
+        <button onclick="scrollToTop()">↑</button>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#" onclick="navigateTo('/'); return false;">Home</a>
+                <a href="#" onclick="navigateTo('/about/'); return false;">About</a>
+                <a href="#" onclick="navigateTo('/10-0-0-1-login/'); return false;">Login Guide</a>
+                <a href="#" onclick="navigateTo('/pause-time/'); return false;">Pause Time</a>
+            </div>
+            <div class="footer-section">
+                <h3>Guides</h3>
+                <a href="#" onclick="navigateTo('/blog/'); return false;">Blog</a>
+                <a href="#" onclick="navigateTo('/faq/'); return false;">FAQ</a>
+                <a href="#" onclick="navigateTo('/contact/'); return false;">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="#" onclick="navigateTo('/privacy/'); return false;">Privacy Policy</a>
+                <a href="#" onclick="navigateTo('/terms/'); return false;">Terms & Conditions</a>
+                <a href="#" onclick="navigateTo('/disclaimer/'); return false;">Disclaimer</a>
+            </div>
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://youtube.com" target="_blank">YouTube</a>
+            </div>
+        </div>
+
+        <div class="footer-disclaimer">
+            This website is an independent educational and informational resource about Piso WiFi Pause Time. It is not affiliated with, endorsed by, sponsored by, or officially connected with LPB Piso WiFi, AdoPiSoft, JuanFi, TP-Link, or any other network hardware or software provider. All trademarks belong to their respective owners. Users should verify important information through the official provider whenever necessary.
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Piso WiFi Pause Time. All rights reserved. | Premium Educational Resource</p>
+        </div>
+    </footer>
+
+    <script>
+        // Page routing
+        const pages = {
+            '/': 'page-home',
+            '/about/': 'page-about',
+            '/10-0-0-1-login/': 'page-login',
+            '/pause-time/': 'page-pause-time',
+            '/blog/': 'page-blog',
+            '/faq/': 'page-faq',
+            '/contact/': 'page-contact',
+            '/privacy/': 'page-privacy',
+            '/terms/': 'page-terms',
+            '/disclaimer/': 'page-disclaimer'
+        };
+
+        function navigateTo(path) {
+            const pageId = pages[path];
+            if (!pageId) {
+                showPage('page-404');
+                return;
+            }
+
+            // Hide all pages
+            document.querySelectorAll('.page-content').forEach(page => {
+                page.classList.remove('active');
+            });
+
+            // Show selected page
+            showPage(pageId);
+            window.scrollTo(0, 0);
+
+            // Close mobile menu if open
+            const nav = document.getElementById('nav-menu');
+            if (nav.classList.contains('active')) {
+                nav.classList.remove('active');
+            }
+        }
+
+        function showPage(pageId) {
+            const page = document.getElementById(pageId);
+            if (page) {
+                page.classList.add('active');
+            }
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const nav = document.getElementById('nav-menu');
+            nav.classList.toggle('active');
+        }
+
+        // Toggle FAQ
+        function toggleFAQ(element) {
+            element.parentElement.classList.toggle('active');
+        }
+
+        // Newsletter submit
+        function handleNewsletterSubmit(e) {
+            e.preventDefault();
+            alert('Thank you for subscribing! Check your email for confirmation.');
+        }
+
+        // Contact form submit
+        function handleContactForm(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We\'ll get back to you soon.');
+            e.target.reset();
+        }
+
+        // Scroll progress bar
+        window.addEventListener('scroll', () => {
+            const scrollProgress = document.querySelector('.scroll-progress');
+            const scrollPercent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+            scrollProgress.style.width = scrollPercent + '%';
+
+            // Show back to top button
+            const backToTop = document.getElementById('backToTop');
+            if (window.scrollY > 300) {
+                backToTop.classList.add('show');
+            } else {
+                backToTop.classList.remove('show');
+            }
+
+            // Scroll reveal animation
+            const reveals = document.querySelectorAll('.scroll-reveal');
+            reveals.forEach(element => {
+                const windowHeight = window.innerHeight;
+                const revealTop = element.getBoundingClientRect().top;
+
+                if (revealTop < windowHeight) {
+                    element.classList.add('active');
+                }
+            });
+        });
+
+        // Scroll to top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Initialize
+        window.addEventListener('load', () => {
+            // Trigger initial reveal animations
+            const reveals = document.querySelectorAll('.scroll-reveal');
+            reveals.forEach((element, index) => {
+                setTimeout(() => {
+                    element.classList.add('active');
+                }, index * 100);
+            });
+        });
+
+        // Mouse glow effect for buttons
+        document.addEventListener('mousemove', (e) => {
+            const buttons = document.querySelectorAll('.btn-primary, .sticky-cta button, .back-to-top button');
+            buttons.forEach(button => {
+                const rect = button.getBoundingClientRect();
+                const distance = Math.sqrt(
+                    Math.pow(e.clientX - (rect.left + rect.width / 2), 2) +
+                    Math.pow(e.clientY - (rect.top + rect.height / 2), 2)
+                );
+
+                if (distance < 100) {
+                    button.style.boxShadow = `0 0 ${Math.max(0, 100 - distance) * 0.5}px rgba(37, 99, 235, 0.8)`;
+                }
+            });
+        });
+    </script>
+</body>
+</html>
